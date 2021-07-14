@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { MyHook, CallApi, App } from "./components/index";
 import { Provider } from "react-redux";
 import store from "./redux/configureStore";
+import App from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
